@@ -1,0 +1,411 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Mypropertiesdotcom</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .nav {
+      background: radial-gradient(circle, rgba(204, 153, 65, 0.87) 100%, rgba(181, 126, 60, 1) 0%);
+      display: flex;
+      padding: 30px 10px;
+      justify-content: space-between;
+    }
+
+    .nav a {
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 20px;
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .login-section {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), 
+        url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .login-box {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      color: white;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-box label {
+      display: block;
+      text-align: left;
+      margin: 15px 0 5px;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.9);
+      font-size: 15px;
+      color: #000;
+    }
+
+    .login-box button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      background-color: #333;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer {
+      height: 200px;
+      background-color: antiquewhite;
+      justify-content: space-between;
+      display: flex;
+    }
+
+    .leftL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding-left: 150px;
+      padding-top: 40px;
+    }
+
+    .RightL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding-right: 150px;
+      padding-top: 40px;
+    }
+    @media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .links a {
+    display: block;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .leftL, .RightL {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .footer div {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<!-- ✅ Navbar -->
+<nav>
+  <div class="nav">
+    <div class="logo">
+      <a href="/index.html">Mypropertiesdotcom</a>
+    </div>
+    <div class="links">
+      <p><a href="/search.html">Search Properties</a></p>
+      <p><a href="/about.html">About Us</a></p>
+      <p><a href="/contact.html">Contact Us</a></p>
+      <p><a href="/login.html">Login</a></p>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ Login Form Section -->
+<section class="login-section">
+  <div class="login-box">
+    <h2>Login to Your Account</h2>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required />
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</section>
+
+<!-- ✅ Footer -->
+<footer class="footer">
+  <div class="leftL">
+    <p>Our pages</p>
+    <a href="index.html">Home</a>
+    <a href="search.html">Search Properties</a>
+    <a href="contact.html">Contact us</a>
+    <a href="about.html">About us</a>
+  </div>
+  <div class="RightL">
+    <p>Our Socials</p>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+</body>
+</html>
+=======
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Mypropertiesdotcom</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .nav {
+      background: radial-gradient(circle, rgba(204, 153, 65, 0.87) 100%, rgba(181, 126, 60, 1) 0%);
+      display: flex;
+      padding: 30px 10px;
+      justify-content: space-between;
+    }
+
+    .nav a {
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 20px;
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .login-section {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), 
+        url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .login-box {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      color: white;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-box label {
+      display: block;
+      text-align: left;
+      margin: 15px 0 5px;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.9);
+      font-size: 15px;
+      color: #000;
+    }
+
+    .login-box button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      background-color: #333;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer {
+      height: 200px;
+      background-color: antiquewhite;
+      justify-content: space-between;
+      display: flex;
+    }
+
+    .leftL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding-left: 150px;
+      padding-top: 40px;
+    }
+
+    .RightL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding-right: 150px;
+      padding-top: 40px;
+    }
+   @media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .search-form form,
+  .login-box,
+  .footer {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftL, .RightL {
+    padding: 10px;
+    align-items: center;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<!-- ✅ Navbar -->
+<nav>
+  <div class="nav">
+    <div class="logo">
+      <a href="/index.html">Mypropertiesdotcom</a>
+    </div>
+    <div class="links">
+      <p><a href="/search.html">Search Properties</a></p>
+      <p><a href="/about.html">About Us</a></p>
+      <p><a href="/contact.html">Contact Us</a></p>
+      <p><a href="/login.html">Login</a></p>
+    </div>
+  </div>
+</nav>
+
+<!-- ✅ Login Form Section -->
+<section class="login-section">
+  <div class="login-box">
+    <h2>Login to Your Account</h2>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required />
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</section>
+
+<!-- ✅ Footer -->
+<footer class="footer">
+  <div class="leftL">
+    <p>Our pages</p>
+    <a href="index.html">Home</a>
+    <a href="search.html">Search Properties</a>
+    <a href="contact.html">Contact us</a>
+    <a href="about.html">About us</a>
+  </div>
+  <div class="RightL">
+    <p>Our Socials</p>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+</body>
+</html>
+>>>>>>> a93e72bc43a4f2743eb37c2963b6d64bfab4891e

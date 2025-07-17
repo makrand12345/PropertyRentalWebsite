@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Mypropertiesdotcom</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    .nav {
+      background: radial-gradient(circle, rgba(204, 153, 65, 0.87), rgba(181, 126, 60, 1));
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 10px;
+    }
+
+    .nav a { text-decoration: none; }
+    .logo { font-size: 20px; }
+    .links { display: flex; gap: 2rem; }
+
+    .contact-section {
+      min-height: 80vh;
+      padding: 60px 20px;
+      background: #fffefb;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .contact-section h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .contact-section form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #f5f5f5;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-section label {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-section button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .footer {
+      height: 200px;
+      background-color: antiquewhite;
+      justify-content: space-between;
+      display: flex;
+    }
+
+    .leftL, .RightL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding: 40px 150px;
+    }
+    @media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .links a {
+    display: block;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .leftL, .RightL {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .footer div {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="nav">
+    <div class="logo"><a href="/index.html">Mypropertiesdotcom</a></div>
+    <div class="links">
+      <p><a href="/search.html">Search Properties</a></p>
+      <p><a href="/about.html">About Us</a></p>
+      <p><a href="/contact.html">Contact Us</a></p>
+      <p><a href="/login.html">Login</a></p>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <h1>Get in Touch</h1>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your full name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="your@email.com" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="leftL">
+    <p>Our pages</p>
+    <a href="index.html">Home</a>
+    <a href="search.html">Search Properties</a>
+    <a href="contact.html">Contact us</a>
+    <a href="about.html">About us</a>
+  </div>
+  <div class="RightL">
+    <p>Our Socials</p>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Mypropertiesdotcom</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    .nav {
+      background: radial-gradient(circle, rgba(204, 153, 65, 0.87), rgba(181, 126, 60, 1));
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 10px;
+    }
+
+    .nav a { text-decoration: none; }
+    .logo { font-size: 20px; }
+    .links { display: flex; gap: 2rem; }
+
+    .contact-section {
+      min-height: 80vh;
+      padding: 60px 20px;
+      background: #fffefb;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .contact-section h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .contact-section form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #f5f5f5;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-section label {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-section button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .footer {
+      height: 200px;
+      background-color: antiquewhite;
+      justify-content: space-between;
+      display: flex;
+    }
+
+    .leftL, .RightL {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      padding: 40px 150px;
+    }
+    @media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .search-form form,
+  .login-box,
+  .footer {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftL, .RightL {
+    padding: 10px;
+    align-items: center;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="nav">
+    <div class="logo"><a href="/index.html">Mypropertiesdotcom</a></div>
+    <div class="links">
+      <p><a href="/search.html">Search Properties</a></p>
+      <p><a href="/about.html">About Us</a></p>
+      <p><a href="/contact.html">Contact Us</a></p>
+      <p><a href="/login.html">Login</a></p>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <h1>Get in Touch</h1>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your full name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="your@email.com" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="leftL">
+    <p>Our pages</p>
+    <a href="index.html">Home</a>
+    <a href="search.html">Search Properties</a>
+    <a href="contact.html">Contact us</a>
+    <a href="about.html">About us</a>
+  </div>
+  <div class="RightL">
+    <p>Our Socials</p>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+</body>
+</html>
+>>>>>>> a93e72bc43a4f2743eb37c2963b6d64bfab4891e
